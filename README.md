@@ -68,7 +68,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 12. **Predicting the Law Area and Decisions of French Supreme Court Cases**.
 
-    *Octavia-Maria Sulea, Marcos Zampieri, Mihaela Vela, Josef van Genabith*. RANLP 2017[[pdf](https://www.acl-bg.org/proceedings/2017/RANLP 2017/pdf/RANLP092.pdf)]
+    *Octavia-Maria Sulea, Marcos Zampieri, Mihaela Vela, Josef van Genabith*. RANLP 2017[[pdf](https://www.acl-bg.org/proceedings/2017/RANLP%202017/pdf/RANLP092.pdf)]
 
 13. **JUMPER: Learning When to Make Classification Decisions in Reading**.
 
