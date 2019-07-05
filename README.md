@@ -17,6 +17,10 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 3. **Large-Scale Multi-Label Text Classification on EU Legislation**.
 
    *Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Ion Androutsopoulos*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02192.pdf>)]
+   
+4. **A Test Collection for Evaluating Legal Case Law Search**.
+
+   *Daniel Locke, Guido Zuccon*. SIGIR 2018 [[pdf](https://dl.acm.org/citation.cfm?id=3210161)]
 
 
 
@@ -77,6 +81,10 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 14. **Generalize Symbolic Knowledge With Neural Rule Engine**.
 
     *Shen Li, Hengru Xu, Zhengdong Lu*. [[pdf](https://arxiv.org/pdf/1808.10326.pdf)]
+    
+15. **An External Knowledge Enhanced Multi-label Charge Prediction Approach with Label Number Learning**.
+
+    *Duan Wei, Li Lin*. [[pdf](https://arxiv.org/pdf/1907.02205.pdf)]
 
 
 
