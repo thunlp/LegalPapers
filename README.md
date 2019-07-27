@@ -44,7 +44,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 5. **Legal Article-Aware End-To-End Memory Network for Charge Prediction**.
 
-   *Yatian Shen, Jun Sun, Xiaopeng Li, Lei Zhang, Yan Li, Xiajiong Shen*. CSAE 2018 
+   *Yatian Shen, Jun Sun, Xiaopeng Li, Lei Zhang, Yan Li, Xiajiong Shen*. CSAE 2018 [[pdf](https://dl.acm.org/citation.cfm?id=3278068)]
 
 6. **SECaps: A Sequence Enhanced Capsule Model for Charge Prediction**.
 
@@ -86,6 +86,10 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
     *Duan Wei, Li Lin*. [[pdf](https://arxiv.org/pdf/1907.02205.pdf)]
 
+16. **Machine learning for explaining and ranking the most influential maers of law**.
+
+    *Max R. S. Marques, Tommaso Bianco, Maxime Roodnejad, Thomas Baduel, Claude Berrou*. ICAIL 2019[[pdf](https://dl.acm.org/citation.cfm?id=3326734)]
+
 
 
 ## Legal Question Answering
@@ -104,7 +108,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 1. **Interpretable Charge Predictions for Criminal Cases: Learning to Generate Court Views from Fact Descriptions**.
 
-   *Hai Ye, Xin Jiang, Zhunchen Luo, Wenhan Chao*. NAACL-HIT 2018 [[pdf](<https://www.aclweb.org/anthology/N18-1168>)]
+   *Hai Ye, Xin Jiang, Zhunchen Luo, Wenhan Chao*. NAACL-HLT 2018 [[pdf](<https://www.aclweb.org/anthology/N18-1168>)]
 
 
 
