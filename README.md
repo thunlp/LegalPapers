@@ -60,7 +60,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 9. **Legal Judgment Prediction via Multi-Perspective Bi-Feedback Network**.
 
-   *Wenmian Yang, Weijia Jia, Xiaojie Zhou, Yutao Luo*. [[pdf](<https://arxiv.org/pdf/1905.03969.pdf>)]
+   *Wenmian Yang, Weijia Jia, Xiaojie Zhou, Yutao Luo*. IJCAI 2019[[pdf](<https://arxiv.org/pdf/1905.03969.pdf>)]
 
 10. **Law text classification using semi-supervised convolutional neural networks**.
 
