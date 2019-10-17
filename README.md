@@ -86,7 +86,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
     *Duan Wei, Li Lin*. [[pdf](https://arxiv.org/pdf/1907.02205.pdf)]
 
-16. **Machine learning for explaining and ranking the most influential maers of law**.
+16. **Machine learning for explaining and ranking the most influential matters of law**.
 
     *Max R. S. Marques, Tommaso Bianco, Maxime Roodnejad, Thomas Baduel, Claude Berrou*. ICAIL 2019[[pdf](https://dl.acm.org/citation.cfm?id=3326734)]
 
