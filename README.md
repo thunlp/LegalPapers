@@ -90,6 +90,9 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
     *Max R. S. Marques, Tommaso Bianco, Maxime Roodnejad, Thomas Baduel, Claude Berrou*. ICAIL 2019[[pdf](https://dl.acm.org/citation.cfm?id=3326734)]
 
+17. **Charge-Based Prison Term Prediction with Deep Gating Network**.
+    *Huajie Chen, Deng Cai, Wei Dai, Zehui Dai, Yadong Ding*. EMNLP-IJCNLP 2019 [pdf](https://www.aclweb.org/anthology/D19-1667.pdf)
+
 
 
 ## Legal Question Answering
