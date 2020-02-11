@@ -6,23 +6,86 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 ## Datasets
 
-1. **CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction**.
+| Dataset                                          | Task                  | Language        | Size                           |
+| ------------------------------------------------ | --------------------- | --------------- | ------------------------------ |
+| [Gamper (2000)](#Gamper)                         | Parallel Corpus       | Italian, German | 5m words                       |
+| [Grover et al. (2004)](#Grover)                  | Summarization         | English         | 40 documents, 12k sentences    |
+| [Hoekstra et al. (2007)](#Hoekstra)              | Ontology              | English         | 2378 concepts                  |
+| [Demenko et al. (2008)](#Demenko)                | Speech                | Polish          | 2h vocal material              |
+| [Cvrcek et al. (2012)](#Cvrcek)                  | Dictionary            | Czech           | 10k entries, 20k terms         |
+| [Fawei et al. (2016)](#Fawei)                    | Question Answering    | English         | 400 questions                  |
+| [Locke et al. (2018)](#Locke)                    | Information Retrieve  | English         | 3m decisions, 2572 assessments |
+| [Kano et al. (2018)](#Kano)                      | IR and QA             | Japanese        | 285 queries, 651 questions     |
+| [Xiao et al. (2018)](#XiaoCAIL2018)              | Judgment Prediction   | Chinese         | 2.68m documents                |
+| [Manor et al. (2019)](#Manor)                    | Summarization         | English         | 505 sets, 175 documents        |
+| [Chalkidis et al. (2019a)](#ChalkidisNeural)     | Judgment Prediction   | English         | 11.5k documents                |
+| [Chalkidis et al. (2019b)](#ChalkidisLargeScale) | Classification        | English         | 57k documents, 4.3k labels     |
+| [Duan et al. (2019)](#Duan)                      | Reading Comprehension | Chinese         | 50k questions, 10k documents   |
+| [Xiao et al. (2019)](#XiaoCAIL2019)              | Similar Case Matching | Chinese         | 9k triplets of documents       |
+| [Zhong et al. (2020)](#ZhongJECQA)               | Question Answering    | Chinese         | 30k questions, 80k articles    |
+
+1. <span id="Gamper">**A parallel corpus of Italian/German legal texts.**</span>
+
+   *Johann Gamper.* LREC 2000 [[pdf](http://www.lrec-conf.org/proceedings/lrec2000/pdf/140.pdf)]
+
+2. <span id = "Grover">**The HOLJ corpus: supporting summarisation of legal texts**.</span>
+
+   *Claire Grover, Ben Hachey, Ian Hughson.* COLING 2004 [[pdf](https://www.aclweb.org/anthology/W04-1907)]
+
+3. <span id = "Hoekstra">**The lkif core ontology of basic legal concepts.**</span>
+
+   *Rinke Hoekstra, Joost Breuker, Marcello Di Bello, Alexander Boer.* 2007 [[pdf](http://ceur-ws.org/Vol-321/LOAIT07-Proceedings.pdf#page=43)]
+
+4. <span id = "Demenko">**JURISDIC: Polish speech database for taking dictation of legal texts.**</span>
+
+   *Grazyna Demenko, Stefan Grocholewski, Katarzyna Klessa, Jerzy Ogorkiewicz, Agnieszka Wagner, Marek Lange, Daniel Sledzinski, Natalia Cylwik.* LREC 2008 [[pdf](http://www.lrec-conf.org/proceedings/lrec2008/pdf/326_paper.pdf)]
+
+5. <span id = "Cvrcek">**Legal electronic dictionary for Czech.** </span>
+
+   *Frantisek Cvrcek, Karel Pala, Pavel Rychly*. LREC 2012 [[pdf](http://www.lrec-conf.org/proceedings/lrec2012/pdf/775_Paper.pdf)]
+
+6. <span id = "Fawei">**Passing a USA national bar exam: a first corpus for experimentation.**</span>
+
+   *Biralatei Fawei, Adam Wyner, Jeff Pan.* LREC 2016 [[pdf](https://www.aclweb.org/anthology/L16-1538)]
+
+7. <span id = "Locke">**A Test Collection for Evaluating Legal Case Law Search**.</span>
+
+   *Daniel Locke, Guido Zuccon.* SIGIR 2018 [[pdf](https://dl.acm.org/doi/abs/10.1145/3209978.3210161)]
+
+8. <span id = "Kano">**Coliee-2018: Evaluation of the competition on legal information extraction and entailment.**</span>
+
+   *Yoshinobu Kano, Mi-Young Kim, Masaharu Yoshioka, Yao Lu, Juliano Rabelo, Naoki Kiyota, Randy
+   Goebel, Ken Satoh.* JSAI 2018. [[pdf](https://sites.ualberta.ca/~rabelo/COLIEE2019/COLIEE2018_CL_summary.pdf)]
+
+9. <span id = "XiaoCAIL2018">**CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction**.</span>
 
    *Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu*. [[pdf](<https://arxiv.org/pdf/1807.02478.pdf>)]
 
-2. **Neural Legal Judgment Prediction in English**.
+10. <span id = "Manor">**Plain English summarization of contracts.**</span>
 
-   *Ilias Chalkidis, Ion Androutsopoulos, Nikolaos Aletras*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02059.pdf>)]
+   *Laura Manor, Junyi Jessy Li.* Natural Legal Language Processing Workshop 2019 [[pdf](https://doi.org/10.18653/v1/W19-2201)]
 
-3. **Large-Scale Multi-Label Text Classification on EU Legislation**.
+11. <span id = "ChalkidisNeural">**Neural Legal Judgment Prediction in English**.</span>
 
-   *Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Ion Androutsopoulos*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02192.pdf>)]
-   
-4. **A Test Collection for Evaluating Legal Case Law Search**.
+    *Ilias Chalkidis, Ion Androutsopoulos, Nikolaos Aletras*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02059.pdf>)]
 
-   *Daniel Locke, Guido Zuccon*. SIGIR 2018 [[pdf](https://dl.acm.org/citation.cfm?id=3210161)]
+12. <span id = "ChalkidisLargeScale">**Large-Scale Multi-Label Text Classification on EU Legislation**.</span>
 
+    *Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Ion Androutsopoulos*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02192.pdf>)]
 
+13. <span id = "Duan">**Cjrc: A reliable human-annotated benchmark dataset for chinese judicial reading comprehension.**</span>
+
+    *Xingyi Duan, Baoxin Wang, Ziyue Wang, Wentao Ma, Yiming Cui, Dayong Wu, Shijin Wang, Ting Liu, Tianxiang Huo, Zhen Hu.* CCL 2019 [[pdf](https://arxiv.org/pdf/1912.09156.pdf)]
+
+14. <span id = "XiaoCAIL2019">**Cail2019-scm: A dataset of similar case matching in legal domain.**</span>
+
+    *Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Tianyang Zhang, Xianpei Han, Heng Wang, Jianfeng Xu.* [[pdf](https://arxiv.org/pdf/1911.08962)]
+
+15. <span id = "ZhongJECQA">**Jec-qa: A legal-domain question answering dataset.**</span>
+
+    *Haoxi Zhong, Chaojun Xiao, Cunchao Tu, Tianyang Zhang, Zhiyuan Liu, Maosong Sun.* AAAI 2020 [[pdf](https://arxiv.org/pdf/1911.12011)]
+
+    
 
 ## Legal Judgment Prediction
 
