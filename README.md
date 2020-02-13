@@ -6,23 +6,24 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 ## Datasets
 
-| Dataset                                          | Task                  | Language        | Size                           |
-| ------------------------------------------------ | --------------------- | --------------- | ------------------------------ |
-| [Gamper (2000)](#Gamper)                         | Parallel Corpus       | Italian, German | 5m words                       |
-| [Grover et al. (2004)](#Grover)                  | Summarization         | English         | 40 documents, 12k sentences    |
-| [Hoekstra et al. (2007)](#Hoekstra)              | Ontology              | English         | 2378 concepts                  |
-| [Demenko et al. (2008)](#Demenko)                | Speech                | Polish          | 2h vocal material              |
-| [Cvrcek et al. (2012)](#Cvrcek)                  | Dictionary            | Czech           | 10k entries, 20k terms         |
-| [Fawei et al. (2016)](#Fawei)                    | Question Answering    | English         | 400 questions                  |
-| [Locke et al. (2018)](#Locke)                    | Information Retrieve  | English         | 3m decisions, 2572 assessments |
-| [Kano et al. (2018)](#Kano)                      | IR and QA             | Japanese        | 285 queries, 651 questions     |
-| [Xiao et al. (2018)](#XiaoCAIL2018)              | Judgment Prediction   | Chinese         | 2.68m documents                |
-| [Manor et al. (2019)](#Manor)                    | Summarization         | English         | 505 sets, 175 documents        |
-| [Chalkidis et al. (2019a)](#ChalkidisNeural)     | Judgment Prediction   | English         | 11.5k documents                |
-| [Chalkidis et al. (2019b)](#ChalkidisLargeScale) | Classification        | English         | 57k documents, 4.3k labels     |
-| [Duan et al. (2019)](#Duan)                      | Reading Comprehension | Chinese         | 50k questions, 10k documents   |
-| [Xiao et al. (2019)](#XiaoCAIL2019)              | Similar Case Matching | Chinese         | 9k triplets of documents       |
-| [Zhong et al. (2020)](#ZhongJECQA)               | Question Answering    | Chinese         | 30k questions, 80k articles    |
+| Dataset                                          | Task                    | Language        | Size                           |
+| ------------------------------------------------ | ----------------------- | --------------- | ------------------------------ |
+| [Gamper (2000)](#Gamper)                         | Parallel Corpus         | Italian, German | 5m words                       |
+| [Grover et al. (2004)](#Grover)                  | Summarization           | English         | 40 documents, 12k sentences    |
+| [Hoekstra et al. (2007)](#Hoekstra)              | Ontology                | English         | 2378 concepts                  |
+| [Demenko et al. (2008)](#Demenko)                | Speech                  | Polish          | 2h vocal material              |
+| [Cvrcek et al. (2012)](#Cvrcek)                  | Dictionary              | Czech           | 10k entries, 20k terms         |
+| [Fawei et al. (2016)](#Fawei)                    | Question Answering      | English         | 400 questions                  |
+| [Locke et al. (2018)](#Locke)                    | Information Retrieve    | English         | 3m decisions, 2572 assessments |
+| [[Araujo et al. (2018)](#Lenerbr)]               | Name Entity Recognition | Portuguese      | 70 documents                   |
+| [Kano et al. (2018)](#Kano)                      | IR and QA               | Japanese        | 285 queries, 651 questions     |
+| [Xiao et al. (2018)](#XiaoCAIL2018)              | Judgment Prediction     | Chinese         | 2.68m documents                |
+| [Manor et al. (2019)](#Manor)                    | Summarization           | English         | 505 sets, 175 documents        |
+| [Chalkidis et al. (2019a)](#ChalkidisNeural)     | Judgment Prediction     | English         | 11.5k documents                |
+| [Chalkidis et al. (2019b)](#ChalkidisLargeScale) | Classification          | English         | 57k documents, 4.3k labels     |
+| [Duan et al. (2019)](#Duan)                      | Reading Comprehension   | Chinese         | 50k questions, 10k documents   |
+| [Xiao et al. (2019)](#XiaoCAIL2019)              | Similar Case Matching   | Chinese         | 9k triplets of documents       |
+| [Zhong et al. (2020)](#ZhongJECQA)               | Question Answering      | Chinese         | 30k questions, 80k articles    |
 
 1. <span id="Gamper">**A parallel corpus of Italian/German legal texts.**</span>
 
@@ -57,31 +58,35 @@ Contributed by Chaojun Xiao and Haoxi Zhong
    *Yoshinobu Kano, Mi-Young Kim, Masaharu Yoshioka, Yao Lu, Juliano Rabelo, Naoki Kiyota, Randy
    Goebel, Ken Satoh.* JSAI 2018. [[pdf](https://sites.ualberta.ca/~rabelo/COLIEE2019/COLIEE2018_CL_summary.pdf)]
 
-9. <span id = "XiaoCAIL2018">**CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction**.</span>
+9. <span id = "Lenerbr">**Lener-br: A dataset for named entity recognition in brazilian legal text.**</span>
+
+   *Pedro Henrique Luz de Araujo, Teófilo E. de Campos, Renato R. R. de Oliveira, Matheus Stauffer, Samuel Couto, Paulo Bermejo.* PROPOR 2018 [[pdf](https://link.springer.com/chapter/10.1007/978-3-319-99722-3_32)]
+
+10. <span id = "XiaoCAIL2018">**CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction**.</span>
 
    *Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Yansong Feng, Xianpei Han, Zhen Hu, Heng Wang, Jianfeng Xu*. [[pdf](<https://arxiv.org/pdf/1807.02478.pdf>)]
 
-10. <span id = "Manor">**Plain English summarization of contracts.**</span>
+11. <span id = "Manor">**Plain English summarization of contracts.**</span>
 
-   *Laura Manor, Junyi Jessy Li.* Natural Legal Language Processing Workshop 2019 [[pdf](https://doi.org/10.18653/v1/W19-2201)]
+    *Laura Manor, Junyi Jessy Li.* Natural Legal Language Processing Workshop 2019 [[pdf](https://doi.org/10.18653/v1/W19-2201)]
 
-11. <span id = "ChalkidisNeural">**Neural Legal Judgment Prediction in English**.</span>
+12. <span id = "ChalkidisNeural">**Neural Legal Judgment Prediction in English**.</span>
 
     *Ilias Chalkidis, Ion Androutsopoulos, Nikolaos Aletras*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02059.pdf>)]
 
-12. <span id = "ChalkidisLargeScale">**Large-Scale Multi-Label Text Classification on EU Legislation**.</span>
+13. <span id = "ChalkidisLargeScale">**Large-Scale Multi-Label Text Classification on EU Legislation**.</span>
 
     *Ilias Chalkidis, Manos Fergadiotis, Prodromos Malakasiotis, Ion Androutsopoulos*. ACL 2019 [[pdf](<https://arxiv.org/pdf/1906.02192.pdf>)]
 
-13. <span id = "Duan">**Cjrc: A reliable human-annotated benchmark dataset for chinese judicial reading comprehension.**</span>
+14. <span id = "Duan">**Cjrc: A reliable human-annotated benchmark dataset for chinese judicial reading comprehension.**</span>
 
     *Xingyi Duan, Baoxin Wang, Ziyue Wang, Wentao Ma, Yiming Cui, Dayong Wu, Shijin Wang, Ting Liu, Tianxiang Huo, Zhen Hu.* CCL 2019 [[pdf](https://arxiv.org/pdf/1912.09156.pdf)]
 
-14. <span id = "XiaoCAIL2019">**Cail2019-scm: A dataset of similar case matching in legal domain.**</span>
+15. <span id = "XiaoCAIL2019">**Cail2019-scm: A dataset of similar case matching in legal domain.**</span>
 
     *Chaojun Xiao, Haoxi Zhong, Zhipeng Guo, Cunchao Tu, Zhiyuan Liu, Maosong Sun, Tianyang Zhang, Xianpei Han, Heng Wang, Jianfeng Xu.* [[pdf](https://arxiv.org/pdf/1911.08962)]
 
-15. <span id = "ZhongJECQA">**Jec-qa: A legal-domain question answering dataset.**</span>
+16. <span id = "ZhongJECQA">**Jec-qa: A legal-domain question answering dataset.**</span>
 
     *Haoxi Zhong, Chaojun Xiao, Cunchao Tu, Tianyang Zhang, Zhiyuan Liu, Maosong Sun.* AAAI 2020 [[pdf](https://arxiv.org/pdf/1911.12011)]
 
@@ -158,18 +163,6 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 
 
-## Legal Question Answering
-
-1. **Lexical-Morphological Modeling for Legal Text Analysis**.
-
-   *Danilo S. Carvalho, Minh-Tien Nguyen, Chien-Xuan Tran, Minh-Le Nguyen*. COLIEE 2017 [[pdf](<https://link.springer.com/chapter/10.1007/978-3-319-50953-2_21>)]
-
-2. **Legal Question Answering using Ranking SVM and Deep Convolutional Neural Network**.
-
-   *Phong-Khac Do, Huy-Tien Nguyen, Chien-Xuan Tran, Minh-Tien Nguyen, Minh-Le Nguyen*. COLIEE 2017 [[pdf](<https://arxiv.org/pdf/1703.05320.pdf>)]
-
-
-
 ## Court Views Generation
 
 1. **Interpretable Charge Predictions for Criminal Cases: Learning to Generate Court Views from Fact Descriptions**.
@@ -180,53 +173,135 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 ## Information Extraction
 
-1. **Litigation Analytics: Case Outcomes Extracted from US Federal Court Dockets**.
+#### Named Entity Recognition
 
-   *Thomas Vacek, Ronald Teo, Dezhao Song, Conner Cowling, Frank Schilder, Timothy Nugent*. NAACL-WS 2019[[pdf](https://www.aclweb.org/anthology/W19-2206)]
+1. **Named entity recognition in the legal domain for ontology population.**
 
-2. **A Sequence Approach to Case Outcome Detection**.
+   *Mirian Bruckschen, Caio Northfleet, Paulo Bridi, Roger Granada, Renata Vieira, Prasad Rao, Tomas Sander.* 2010 [[pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.232.9181&rep=rep1&type=pdf#page=21)] 
+
+2. **Legal NERC with ontologies, Wikipedia and curriculum learning.**
+
+   *Cristian Cardellino, Milagro Teruel, Laura Alonso Alemany, Serena Villata.* EACL 2017 [[pdf](https://www.aclweb.org/anthology/E17-2041.pdf)]
+
+3. **A Low-cost, High-coverage Legal Named Entity Recognizer, Classifier and Linker.**
+
+   *Cristian Cardellino, Milagro Teruel, Laura Alonso Alemany, Serena Villata.* 2017 [[pdf](https://hal.archives-ouvertes.fr/hal-01541446/file/main.pdf)]
+
+4. **Legal Entity Extraction with NER Systems.**
+
+   *Ines Badji.* 2018 [[pdf](https://pdfs.semanticscholar.org/a842/960783d6b734eeb18ec6173218d7d34d6bbb.pdf)]
+
+5. **Deep Learning for Named-Entity Linking with Transfer Learning for Legal Documents.**
+
+   *Ahmed  Elnaggar, Robin  Otto, Florian  Matthes.* AICCC 2018 [[pdf](https://dl.acm.org/doi/abs/10.1145/3299819.3299846)]
+
+6. **Neural Entity Reasoner for Global Consistency in Named Entity Recognition.**
+
+   *Xiaoxiao Yin, Daqi Zheng, Zhengdong Lu, Ruifang Liu.* 2018 [[pdf](https://arxiv.org/pdf/1810.00347)]
+
+7. **Fine-Grained Named Entity Recognition in Legal Documents.**
+
+   *Elena Leitner, Georg Rehm, Julian Moreno-Schneider.* SEMANTiCS 2019 [[pdf](https://link.springer.com/chapter/10.1007/978-3-030-33220-4_20)]
+
+
+
+#### Event Extraction
+
+1. **Event extraction and temporal reasoning in legal documents.**
+
+   *Frank Schilder.* 2005 [[pdf](https://dl.acm.org/doi/10.5555/1783514.1783519)]
+
+2. **Event extraction for legal case building and reasoning.**
+
+   *Nikolaos Lagos, Frederique Segond, Stefania Castellani, Jacki O’Neill.* IIP 2010 [[pdf](https://link.springer.com/chapter/10.1007/978-3-642-16327-2_14)]
+
+3. **Event Identification as a Decision Process with Non-linear Representation of Text.**
+
+   *YukunYan, Daqi Zheng, Zhengdong Lu, Sen Song*. [[pdf](https://arxiv.org/pdf/1710.00969.pdf)]
+
+4. **Apply event extraction techniques to the judicial field.**
+
+   *Chuanyi Li, Yu Sheng, Jidong Ge, Bin Luo.* 2019 [[pdf](https://dl.acm.org/doi/abs/10.1145/3341162.3345608)]
+
+
+
+#### Others
+
+1. **Semantic mark-up of Italian legal texts through NLPbased techniques. **
+
+   *Roberto Bartolini, Alessandro Lenci, Simonetta Montemagni, Vito Pirrelli, Claudia Soria.* LREC 2004 [[pdf](http://www.lrec-conf.org/proceedings/lrec2004/pdf/709.pdf)]
+
+2. **Legal aspects of text mining.**
+
+   *Maarten Truyens and Patrick Van Eecke.* LREC 2014 [[pdf](https://repository.uantwerpen.be/docman/irua/3dadb2/127790.pdf)]
+
+3. **Litigation Analytics: Case Outcomes Extracted from US Federal Court Dockets**.
+
+   *Thomas Vacek, Ronald Teo, Dezhao Song, Conner Cowling, Frank Schilder, Timothy Nugent*. NAACL Workshop 2019[[pdf](https://www.aclweb.org/anthology/W19-2206)]
+
+4. **A Sequence Approach to Case Outcome Detection**.
 
    *Tom Vacek, Frank Schilder*. ICAIL 2017 [[pdf](https://dl.acm.org/citation.cfm?doid=3086512.3086534)]
 
+5. **Extracting the Gist of Chinese Judgments of the Supreme Court.**
 
-
-## Event Detection
-
-1. **Event Identification as a Decision Process with Non-linear Representation of Text**.
-
-   *YukunYan, Daqi Zheng, Zhengdong Lu, Sen Song*. [[pdf](https://arxiv.org/pdf/1710.00969.pdf)]
+   *Chaolin Liu, Kuanchun Chen.* ICAIL 2019 [[pdf](https://dl.acm.org/doi/abs/10.1145/3322640.3326715)]
 
 
 
 ## Legal Text Summarization
 
-1. **Text summarization from legal documents: a survey**.
+1. **Automatic summarisation of legal documents.**
+
+   *Claire Grover, Ben Hachey, Lan Hugson, Chris Korycinski.* ICAIL 2003 [[pdf](https://dl.acm.org/doi/abs/10.1145/1047788.1047839)]
+
+2. **Summarising legal texts: Sentential tense and argumentative roles.**
+
+   *Claire Grover, Ben Hachey, Chris Korycinski.* NAACL 2003 [[pdf](https://www.aclweb.org/anthology/W03-0505.pdf)]
+
+3. **A Rhetorical Status Classifier for Legal Text Summarisation.**
+
+   *Ben Hachey, Claire Grover.* ACL Workshop 2004 [[pdf](https://www.aclweb.org/anthology/W04-1007.pdf)]
+
+4. **Sentence extraction for legal text summarisation.**
+
+   *Ben Hachey, Claire Grover.* IJCAI 2005 [[pdf](http://benhachey.info/pubs/poster450.pdf)]
+
+5. **Legal Document Summarization using Latent Dirichlet Allocation.**
+
+   *Ravi Kumar V, K. Raghuveer.* IJCST 2012 [[pdf](https://pdfs.semanticscholar.org/40de/6ed958c78d17a687851105fc6e95f80b05f9.pdf)]
+
+6. **Text summarization from legal documents: a survey**.
 
    *Ambedkar Kanapala, Sukomal PalRajendra Pamula*. Artificial Intelligence Review 2019 [[pdf](https://doi.org/10.1007/s10462-017-9566-2)]
 
-2. **A Comparative Study of Summarization Algorithms Applied to Legal Case Judgments**.
+7. **A Comparative Study of Summarization Algorithms Applied to Legal Case Judgments**.
 
    *Paheli Bhattacharya, Kaustubh Hiware, Subham Rajgaria, Nilay Pochhi, Kripabandhu Ghosh, Saptarshi Ghosh*. ECIR 2019 [[pdf](https://link.springer.com/chapter/10.1007/978-3-030-15712-8_27)]
 
+8. **A Novel Approach of Augmenting Training Data for Legal Text Segmentation by Leveraging Domain Knowledge.**
+
+   *Rupali Sunil Wagh, Deepa Anand.* Technologies and Applications 2020 [[pdf](https://link.springer.com/chapter/10.1007/978-981-13-6095-4_4)]
 
 
-## Legal Question Classification
 
-1. **Multi-Task CNN for Classification of Chinese Legal Questions**.
+## Legal Question Answering
+
+1. **Lexical-Morphological Modeling for Legal Text Analysis**.
+
+   *Danilo S. Carvalho, Minh-Tien Nguyen, Chien-Xuan Tran, Minh-Le Nguyen*. COLIEE 2017 [[pdf](<https://link.springer.com/chapter/10.1007/978-3-319-50953-2_21>)]
+
+2. **Legal Question Answering using Ranking SVM and Deep Convolutional Neural Network**.
+
+   *Phong-Khac Do, Huy-Tien Nguyen, Chien-Xuan Tran, Minh-Tien Nguyen, Minh-Le Nguyen*. COLIEE 2017 [[pdf](<https://arxiv.org/pdf/1703.05320.pdf>)]
+
+3. **Multi-Task CNN for Classification of Chinese Legal Questions**.
 
    *Guangyi Xiao,  Jiqian Mo, Even Chow, Hao Chen,  Jingzhi Guo, Zhiguo Gong*. ICEBE 2017[[pdf](https://ieeexplore.ieee.org/abstract/document/8119134)]
 
-2. **Chinese Questions Classification in the Law Domain**.
+4. **Chinese Questions Classification in the Law Domain**.
 
    *Guangyi Xiao, Even Chow, Hao Chen, Jiqian Mo, Jingzhi Guo, Zhiguo Gong*. ICEBE 2017[[pdf](https://ieeexplore.ieee.org/abstract/document/8119153)]
-
-
-
-## Name Entity Recognition
-
-1. **Neural Entity Reasoner for Global Consistency in NER**.
-
-   *Xiaoxiao Yin, Daqi Zheng, Zhengdong Lu, RuiFang Liu*. [[pdf](https://arxiv.org/pdf/1810.00347.pdf)]
 
 
 
