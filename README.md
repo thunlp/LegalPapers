@@ -163,7 +163,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
     
 18. **Iteratively Questioning and Answering for Interpretable Legal Judgment Prediction**
 
-    *Haoxi Zhong, Yuzhong Wang, Cunchao Tu, Tianyang Zhang, Zhiyuan Liu, Maosong Sun*. AAAI 2020. [pdf] 
+    *Haoxi Zhong, Yuzhong Wang, Cunchao Tu, Tianyang Zhang, Zhiyuan Liu, Maosong Sun*. AAAI 2020. [[pdf](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ZhongH.7101.pdf)] 
 
 
 
