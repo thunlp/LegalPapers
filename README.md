@@ -15,7 +15,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 | [Cvrcek et al. (2012)](#Cvrcek)                  | Dictionary              | Czech           | 10k entries, 20k terms         |
 | [Fawei et al. (2016)](#Fawei)                    | Question Answering      | English         | 400 questions                  |
 | [Locke et al. (2018)](#Locke)                    | Information Retrieve    | English         | 3m decisions, 2572 assessments |
-| [[Araujo et al. (2018)](#Lenerbr)]               | Name Entity Recognition | Portuguese      | 70 documents                   |
+| [Araujo et al. (2018)](#Lenerbr)               | Name Entity Recognition | Portuguese      | 70 documents                   |
 | [Kano et al. (2018)](#Kano)                      | IR and QA               | Japanese        | 285 queries, 651 questions     |
 | [Xiao et al. (2018)](#XiaoCAIL2018)              | Judgment Prediction     | Chinese         | 2.68m documents                |
 | [Manor et al. (2019)](#Manor)                    | Summarization           | English         | 505 sets, 175 documents        |
@@ -60,7 +60,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 9. <span id = "Lenerbr">**Lener-br: A dataset for named entity recognition in brazilian legal text.**</span>
 
-   *Pedro Henrique Luz de Araujo, Te¨®filo E. de Campos, Renato R. R. de Oliveira, Matheus Stauffer, Samuel Couto, Paulo Bermejo.* PROPOR 2018 [[pdf](https://link.springer.com/chapter/10.1007/978-3-319-99722-3_32)]
+   *Pedro Henrique Luz de Araujo, TeÂ¨Â®filo E. de Campos, Renato R. R. de Oliveira, Matheus Stauffer, Samuel Couto, Paulo Bermejo.* PROPOR 2018 [[pdf](https://link.springer.com/chapter/10.1007/978-3-319-99722-3_32)]
 
 10. <span id = "XiaoCAIL2018">**CAIL2018: A Large-Scale Legal Dataset for Judgment Prediction**.</span>
 
@@ -217,7 +217,7 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
 2. **Event extraction for legal case building and reasoning.**
 
-   *Nikolaos Lagos, Frederique Segond, Stefania Castellani, Jacki O¡¯Neill.* IIP 2010 [[pdf](https://link.springer.com/chapter/10.1007/978-3-642-16327-2_14)]
+   *Nikolaos Lagos, Frederique Segond, Stefania Castellani, Jacki OÂ¡Â¯Neill.* IIP 2010 [[pdf](https://link.springer.com/chapter/10.1007/978-3-642-16327-2_14)]
 
 3. **Event Identification as a Decision Process with Non-linear Representation of Text.**
 
