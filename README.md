@@ -167,11 +167,11 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 17. **Charge-Based Prison Term Prediction with Deep Gating Network**.
     *Huajie Chen, Deng Cai, Wei Dai, Zehui Dai, Yadong Ding*. EMNLP-IJCNLP 2019. [[pdf](https://www.aclweb.org/anthology/D19-1667.pdf)]
     
-18. **Iteratively Questioning and Answering for Interpretable Legal Judgment Prediction**
+18. **Iteratively Questioning and Answering for Interpretable Legal Judgment Prediction**.
 
     *Haoxi Zhong, Yuzhong Wang, Cunchao Tu, Tianyang Zhang, Zhiyuan Liu, Maosong Sun*. AAAI 2020. [[pdf](https://www.aaai.org/Papers/AAAI/2020GB/AAAI-ZhongH.7101.pdf)] 
     
-19. **Distinguish Confusing Law Articles for Legal Judgment Prediction**
+19. **Distinguish Confusing Law Articles for Legal Judgment Prediction**.
 
     *Nuo Xu, Pinghui Wang, Long Chen, Li Pan, Xiaoyan Wang, Junzhou Zhao*. ACL 2020. [[pdf](https://arxiv.org/pdf/2004.02557.pdf)]
 
