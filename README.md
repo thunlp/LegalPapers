@@ -1,6 +1,6 @@
 # Must-read Papers on Legal Intelligence
 
-Contributed by Chaojun Xiao and Haoxi Zhong
+Contributed by Chaojun Xiao, Haoxi Zhong, Yutao Sun
 
 ## Overview of Legal Intelligence
 
@@ -183,7 +183,9 @@ Contributed by Chaojun Xiao and Haoxi Zhong
 
    *Hai Ye, Xin Jiang, Zhunchen Luo, Wenhan Chao*. NAACL-HLT 2018. [[pdf](<https://www.aclweb.org/anthology/N18-1168>)]
 
+2. **De-Biased Court’s View Generation with Causality**.
 
+      Yiquan Wu, Kun Kuang, Yating Zhang, Xiaozhong Liu, Changlong Sun, Jun Xiao1, Yueting Zhuang, Luo Si, Fei Wu. EMNLP 2020. [[pdf](<https://www.aclweb.org/anthology/2020.emnlp-main.56.pdf>)]
 
 ## Information Extraction
 
