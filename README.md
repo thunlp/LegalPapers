@@ -185,7 +185,7 @@ Contributed by Chaojun Xiao, Haoxi Zhong, Yutao Sun
 
 2. **De-Biased Court’s View Generation with Causality**.
 
-      Yiquan Wu, Kun Kuang, Yating Zhang, Xiaozhong Liu, Changlong Sun, Jun Xiao1, Yueting Zhuang, Luo Si, Fei Wu. EMNLP 2020. [[pdf](<https://www.aclweb.org/anthology/2020.emnlp-main.56.pdf>)]
+   *Yiquan Wu, Kun Kuang, Yating Zhang, Xiaozhong Liu, Changlong Sun, Jun Xiao1, Yueting Zhuang, Luo Si, Fei Wu*. EMNLP 2020. [[pdf](<https://www.aclweb.org/anthology/2020.emnlp-main.56.pdf>)]
 
 ## Information Extraction
 
@@ -338,6 +338,10 @@ Contributed by Chaojun Xiao, Haoxi Zhong, Yutao Sun
 4. **Chinese Questions Classification in the Law Domain**.
 
    *Guangyi Xiao, Even Chow, Hao Chen, Jiqian Mo, Jingzhi Guo, Zhiguo Gong*. ICEBE 2017. [[pdf](https://ieeexplore.ieee.org/abstract/document/8119153)]
+
+5. **Answering Legal Questions by Learning Neural Attentive Text Representation**
+   
+   *Phi Manh Kien, Ha-Thanh Nguyen, Ngo Xuan Bach, Vu Tran, Minh Le Nguyen, Tu Minh Phuong*. ACL 2020. [[pdf](https://www.aclweb.org/anthology/2020.coling-main.86/)]
 
 
 
